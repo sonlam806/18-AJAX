@@ -1,7 +1,6 @@
 {
   "name": "18-ajax",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shindo806/18-AJAX.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shindo806/18-AJAX/issues"
+  },
+  "homepage": "https://github.com/shindo806/18-AJAX#readme",
+  "description": ""
 }
