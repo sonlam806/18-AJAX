@@ -21,12 +21,11 @@
         // Để thêm thư viện vào jsfiddle, nhấn vào Resources ở cột trái, nhập link vào rồi ấn (+)
         // 2. Làm tương tự, thay vì dùng axios, hãy dùng fetch (google để biết cách dùng)
 
+        axios.get('https://randomuser.me/api/').then(resp => {
 
-        axios.get('https://randomuser.me/api/')
-            .then(function (response) {
-                console.log(response.data);
-                document.write(response.data);
-            })
+            var dataLoad = JSON.stringify(resp.data);
+            document.write(dataLoad);
+        });
     </script>
 </body>
 
